@@ -1,3 +1,8 @@
+/**
+ * To be used in a server to parse clients' url requests.
+ * 
+ * Assumes ``parse_and_check_arg_fns`` are correct and accounts only for client error.
+**/
 export function get_parsed_args_from_url_query_string(
   url_query_string : string,
   ...parse_and_check_arg_fns : ((k : string, v : string) => ([ true, any ] | [ false, undefined ]))[]
