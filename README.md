@@ -2,5 +2,6 @@ This module exports a function ``get_parsed_args_from_url_query_string``, which 
 
 Compile to JS:
 ``deno bundle ../src/lib/mod.ts ../src/lib/mod.js``
+
 Test:
 ``deno test --allow-net --allow-read ../src/``
